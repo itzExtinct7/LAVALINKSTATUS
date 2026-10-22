@@ -1,14 +1,70 @@
 {
-  "checked_at": null,
-  "status": "pending",
-  "online": null,
+  "checked_at": "2026-10-22T20:55:52Z",
+  "status": "online",
+  "online": true,
   "host": "budget-us7.bot.heavencloud.in",
   "port": 6706,
   "secure": false,
-  "api_version": null,
-  "version": null,
-  "latency_ms": null,
-  "metrics": {},
+  "api_version": "v4",
+  "version": "4.2.2",
+  "latency_ms": 214.67,
+  "metrics": {
+    "players": 0,
+    "playing_players": 0,
+    "uptime_ms": 2088966,
+    "memory": {
+      "free": 87437840,
+      "used": 42454512,
+      "allocated": 129892352,
+      "reservable": 1015676928
+    },
+    "cpu": {
+      "cores": 6,
+      "systemLoad": 0.21742832812943513,
+      "lavalinkLoad": 0.0003888370439496956
+    }
+  },
   "error": null,
-  "monitor_interval_seconds": 300
+  "monitor_interval_seconds": 300,
+  "server_info": {
+    "version": {
+      "semver": "4.2.2",
+      "major": 4,
+      "minor": 2,
+      "patch": 2,
+      "preRelease": ""
+    },
+    "sourceManagers": [
+      "soundcloud",
+      "bandcamp",
+      "twitch",
+      "vimeo",
+      "niconico",
+      "youtube",
+      "spotify",
+      "http"
+    ],
+    "filters": [
+      "volume",
+      "equalizer",
+      "karaoke",
+      "timescale",
+      "tremolo",
+      "vibrato",
+      "distortion",
+      "rotation",
+      "channelMix",
+      "lowPass"
+    ],
+    "plugins": [
+      {
+        "name": "youtube-plugin",
+        "version": "2be8e542d3f6f178e048dca565892684c2e40177"
+      },
+      {
+        "name": "lavasrc-plugin",
+        "version": "4.8.3"
+      }
+    ]
+  }
 }
