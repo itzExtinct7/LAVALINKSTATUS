@@ -2,7 +2,7 @@ name: Monitor Lavalink
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/1 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 1
     env:
       LAVALINK_HOST: ${{ vars.LAVALINK_HOST || 'budget-us7.bot.heavencloud.in' }}
       LAVALINK_PORT: ${{ vars.LAVALINK_PORT || '6706' }}
