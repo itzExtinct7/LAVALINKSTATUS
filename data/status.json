@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T18:15:21Z",
+  "checked_at": "2026-10-31T21:43:36Z",
   "status": "online",
   "online": true,
   "host": "budget-us7.bot.heavencloud.in",
@@ -7,21 +7,21 @@
   "secure": false,
   "api_version": "v4",
   "version": "4.2.2",
-  "latency_ms": 172.67,
+  "latency_ms": 192.19,
   "metrics": {
-    "players": 1,
-    "playing_players": 0,
-    "uptime_ms": 279370903,
+    "players": 2,
+    "playing_players": 1,
+    "uptime_ms": 291865785,
     "memory": {
-      "free": 15669560,
-      "used": 142923464,
+      "free": 46326760,
+      "used": 112266264,
       "allocated": 158593024,
       "reservable": 1015676928
     },
     "cpu": {
       "cores": 6,
-      "systemLoad": 0.26943930955425854,
-      "lavalinkLoad": 0.0006980745621629549
+      "systemLoad": 0.2472924484036492,
+      "lavalinkLoad": 0.005871930134531411
     }
   },
   "error": null,
