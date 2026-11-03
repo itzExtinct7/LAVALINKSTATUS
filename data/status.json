@@ -1,70 +1,14 @@
 {
-  "checked_at": "2026-11-03T16:05:44Z",
-  "status": "online",
-  "online": true,
+  "checked_at": "2026-11-03T21:43:15Z",
+  "status": "offline",
+  "online": false,
   "host": "budget-us7.bot.heavencloud.in",
   "port": 6706,
   "secure": false,
-  "api_version": "v4",
-  "version": "4.2.2",
-  "latency_ms": 181.03,
-  "metrics": {
-    "players": 10,
-    "playing_players": 3,
-    "uptime_ms": 96140145,
-    "memory": {
-      "free": 65048304,
-      "used": 65040656,
-      "allocated": 130088960,
-      "reservable": 1015676928
-    },
-    "cpu": {
-      "cores": 6,
-      "systemLoad": 0.24021913277171947,
-      "lavalinkLoad": 0.025461326448016883
-    }
-  },
-  "error": null,
-  "monitor_interval_seconds": 300,
-  "server_info": {
-    "version": {
-      "semver": "4.2.2",
-      "major": 4,
-      "minor": 2,
-      "patch": 2,
-      "preRelease": ""
-    },
-    "sourceManagers": [
-      "soundcloud",
-      "bandcamp",
-      "twitch",
-      "vimeo",
-      "niconico",
-      "youtube",
-      "spotify",
-      "http"
-    ],
-    "filters": [
-      "volume",
-      "equalizer",
-      "karaoke",
-      "timescale",
-      "tremolo",
-      "vibrato",
-      "distortion",
-      "rotation",
-      "channelMix",
-      "lowPass"
-    ],
-    "plugins": [
-      {
-        "name": "youtube-plugin",
-        "version": "2be8e542d3f6f178e048dca565892684c2e40177"
-      },
-      {
-        "name": "lavasrc-plugin",
-        "version": "4.8.3"
-      }
-    ]
-  }
+  "api_version": null,
+  "version": null,
+  "latency_ms": null,
+  "metrics": {},
+  "error": "Connection timed out",
+  "monitor_interval_seconds": 300
 }
