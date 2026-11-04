@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T08:04:06Z",
+  "checked_at": "2026-11-04T16:13:00Z",
   "status": "offline",
   "online": false,
   "host": "budget-us7.bot.heavencloud.in",
@@ -9,6 +9,6 @@
   "version": null,
   "latency_ms": null,
   "metrics": {},
-  "error": "Connection timed out",
+  "error": "Connection failed or node is unreachable",
   "monitor_interval_seconds": 300
 }
